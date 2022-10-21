@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Bello Helados</title>
+    </head>
+    <body>
+        <header>
+            <h1>Bello Helados</h1><br>
+              <h2>  Desde 1950 <br>
+                7 decadas con vos </h2> 
+        </header>
+
+        <section>
+            <img src="file:///home/ariel_97/Descargas/Logotipo%20Helader%C3%ADa%20Dulces%20Ilustrado%20Rosa.png"
+        alt="Logo de Bello Helados" >
+        </section>
+
+        <section>
+            <div>
+                <h2>Menu</h2>
+                <h3>Helados</h3>
+                <ul>
+                    <li>Familiar (2KG) -----  $1000</li>
+                    <li>Grande (1 KG) ------  $600</li>
+                    <li>Mediano (1/2KG) ---- $400</li>
+                    <li>Chico (250Grm) -----  $250</li>
+                </ul>
+                <hr>
+        
+                <h3>Batidos</h3>
+                <ul>
+                    <li>Grande ----$500</li>
+                    <li>Mediano ---$300</li>
+                    <li>Chico -----$150</li>
+                </ul>
+                <hr>
+            </div>
+            <div>
+                <h2>Sabores</h2>
+                    <table>
+                        <tr>
+                            <th>Gustos a la Crema</th>
+                            <td>
+                                --Frutilla--
+                                --Vainilla--
+                                --Menta--
+                                --Cereza--
+                                --Chocolate-- 
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gustos al Agua</th>
+                            <td>
+                                --Anana--
+                                --Limon--
+                                --Frutilla--
+                                --Naranja--
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Nos podes encontrar</h2>
+            <h3>Sucursales</h3>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Ubicacion</th>
+                        <th>Horarios</th>
+                    </tr>
+                    <tr>
+                        <td>Posadas</td>
+                        <td><a href="https://goo.gl/maps/ZjZy8ywNkLo7HLbQ7" target="_blank">Ubicacion</a></td>
+                        <td>Lunes a Domingo, las 24hs</td>
+                    </tr>
+                    <tr>
+                        <td>Garupa</td>
+                        <td><a href="https://goo.gl/maps/57rwfaTqimPa7hh37" target="_blank">Ubicacion</a></td>
+                        <td>Lunes a Domingo, de 8hs a 00hs</td>
+                    </tr>
+                    <tr>
+                        <td>CABA</td>
+                        <td><a href="https://goo.gl/maps/UwWQd7fKqWBd58Af9" target="_blank">Ubicacion</a></td>
+                        <td>Lunes a Domingo, las 24hs</td>
+                    </tr>
+                </table>
+                <hr>
+        </section>
+        <h2>Pedidos</h2>
+        <h3>Realizar Pedido</h3>
+        <section>
+            <div>
+                <input type="radio" id="lugar" name="seleccion" value="lugar">
+                <label for="lugar">Lo retiro en el lugar</label><br>
+    
+                <input type="radio" id="deliveri" name="seleccion" value="deliveri">
+                <label for="deliveri">PedidosYa (recargo del 5% en radio de km)</label><br>
+
+                <p>Su Ubicacion</p>
+                    <select name="sede">
+                        <option value="Posadas">Posadas</option>
+                        <option value="Garupa">Garupa</option>
+                        <option value="CABA">CABA</option>
+                    </select>
+
+                    <p>Que desea?</p>
+                    <select>
+                        <option value="helado">Helado</option>
+                        <option value="batido">Batidos</option>
+                        <option value="ambos">Pedido de Ambos</option>
+                    </select>
+            </div>
+            <div>
+                <form action="">
+                    <table>
+                        <th>Pedido Helado</th>
+                        <th>--------------------------</th>
+                        <th>Pedido Batidos</th>
+                    </table>
+                    <table>
+                        <td>
+                            <form action="" method="post">
+                                <p>Sabores</p>
+                                <table>
+                                    <th>S. de Agua</th>
+                                    <th>S. de Crema</th>
+                                </table>
+                                <table>
+                                    <td>
+                                        <input type="checkbox" id="agua1" name="agua1" value="anana">
+                                        <label for="agua1">Anana</label><br>
+                    
+                                        <input type="checkbox" id="agua2" name="agua2" value="limon">
+                                        <label for="agua2">Limon</label><br>
+                            
+                                        <input type="checkbox" name="agua3" id="agua3" value="frutila">
+                                        <label for="agua3"> Frutilla</label><br>
+                    
+                                        <input type="checkbox" name="agua4" id="agua4" value="naranja">
+                                        <label for="agua4"> Naranja</label><br>
+                    
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="crema1" name="crema1" value="frutilla">
+                                        <label for="crema1">Frutilla</label><br>
+            
+                                        <input type="checkbox" id="crema2" name="crema2" value="vainilla">
+                                        <label for="crema2">Vainilla</label><br>
+                    
+                                        <input type="checkbox" name="crema3" id="crema3" value="menta">
+                                        <label for="crema3"> Menta</label><br>
+            
+                                        <input type="checkbox" name="crema4" id="crema4" value="chocolate">
+                                        <label for="crema4"> Chocolate</label><br>
+            
+                                        <input type="checkbox" name="crema5" id="crema5" value="cereza">
+                                        <label for="crema5"> Cereza</label><br>
+            
+                                    </td>
+                                </table>
+                                <p>Lo desea con un extra?</p>
+                                <select>
+                                    <option value="heladoChips">Chips de chocolate</option>
+                                    <option value="heladoCaramelo">Caramelo</option>
+                                    <option value="heladoFrut">Salsa de Frutilla</option>
+                                </select> <br>
+                                <p>Tamaño</p>
+                                <select name="cantidad">
+                                    <option>Familiar</option>
+                                    <option>Grande</option>
+                                    <option>Mediano</option>
+                                    <option>Chico</option>
+                                </select> <br>
+                                <label for="Numeros1">Cuantos?</label>
+                                <input type="number" id="Numeros1" name="Numeros1" placeholder="Cantidad de Potes"><br><br>
+                            </form>            
+                        </td>
+                        <td>----</td>
+                        <td>
+                            <form action="" method="post">
+                                <p>Sabores</p>
+                                <table>
+                                    <th>S. de Agua</th>
+                                    <th>S. de Crema</th>
+                                </table>
+                                <table>
+                                    <td>
+                                        <input type="checkbox" id="agua1" name="agua1" value="anana">
+                                        <label for="agua1">Anana</label><br>
+                    
+                                        <input type="checkbox" id="agua2" name="agua2" value="limon">
+                                        <label for="agua2">Limon</label><br>
+                            
+                                        <input type="checkbox" name="agua3" id="agua3" value="frutila">
+                                        <label for="agua3"> Frutilla</label><br>
+                    
+                                        <input type="checkbox" name="agua4" id="agua4" value="naranja">
+                                        <label for="agua4"> Naranja</label><br>
+                    
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="crema1" name="crema1" value="frutilla">
+                                        <label for="crema1">Frutilla</label><br>
+            
+                                        <input type="checkbox" id="crema2" name="crema2" value="vainilla">
+                                        <label for="crema2">Vainilla</label><br>
+                    
+                                        <input type="checkbox" name="crema3" id="crema3" value="menta">
+                                        <label for="crema3"> Menta</label><br>
+            
+                                        <input type="checkbox" name="crema4" id="crema4" value="chocolate">
+                                        <label for="crema4"> Chocolate</label><br>
+            
+                                        <input type="checkbox" name="crema5" id="crema5" value="cereza">
+                                        <label for="crema5"> Cereza</label><br>
+            
+                                    </td>
+                                </table>
+                                <p>Con que lo desea?</p>
+                                <select>
+                                    <option value="batidoAgua">Con Agua</option>
+                                    <option value="batidoLeche">Con Leche</option>
+                                </select> <br>
+                                <p>Tamaño</p>
+                                <select name="tamanio">
+                                    <option>Grande</option>
+                                    <option>Mediano</option>
+                                    <option>Chico</option>
+                                </select><br>
+                                <label for="Numeros1">Cuantos?</label>
+                                <input type="number" id="Numeros1" name="Numeros1" placeholder="Cantidad de Batidos"><br><br>
+                            </form>
+                        </td>
+                    </table>
+                </form>
+            </div>
+            <br><br>
+
+            <div id="confirmarPedido">
+                <form action="" id="form3" method="post"> 
+                    <h3>Metodo de Pago</h3>
+                    <input type="radio" id="efectivo" name="seleccion2" value="efectivo">
+                    <label for="efectivo">Pago en Efectivo</label><br>
+            
+                    <input type="radio" id="tarjetaCredito" name="seleccion2" value="tarjetaCredito">
+                    <label for="tarjetaCredito">Pago con Tarjeta de Credito</label><br><br><br>
+                    
+                    <label for="correoElectronico">Correo Electronico donde enviar resumen del pedido y factura</label> <br>
+                    <input type="email" name="correoElectronico" id="correoElectronico" placeholder="Correo Electronico"><br><br>
+                    
+                    
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    <label for="nombre">Nombre</label><br>
+
+                    <input type="text" name="apellido" id="apellido" placeholder="Apelido">
+                    <label for="apellido">Apellido</label><br>
+
+                    <input type="tel" name="numeroTelef" id="numeroTelef" placeholder="Numero Telefono" maxlength="8">
+                    <label for="numeroTelef">Numero de Telefono</label><br>
+
+
+                    <input type="text" name="direccion" id="direccion" placeholder="Su direccion de envio">
+                    <label for="direccion">Direccion</label><br>
+
+                    
+                    <input type="reset">
+                    <input type="submit" id="boton2" name="boton2" value="Realizar Pedido" onclick="alert('Confirmar Pedido?');"> <br><br>
+                </form>
+            </div>
+        <section>
+    </body>
+</html>
